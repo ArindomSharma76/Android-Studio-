@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+     <TextView
+         android:layout_margin="6dp"
+        android:text="Arindom's Android APP........"                           
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+       
+         android:textStyle="bold"
+          android:textAllCaps="true"
+        android:background="#000020"
+          android:layout_marginBottom="7dp"
+         
+    />
+ 
+    <ImageView
+        android:paddingTop="16dp"
+        android:src="@drawable/patio"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginLeft="8dp"
+     
+        android:scaleType="centerCrop"
+         android:layout_marginBottom="16dp"
+         />
+    
+     <ImageView
+      
+        android:src="@drawable/android"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        
+     
+        android:scaleType="centerCrop"
+        
+         />
+    
+    <TextView
+        android:text="You're invited!" 
+     
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:background="#3E272E"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:text="GET READY GUYS!!!"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="27sp"
+        android:background="#263238"
+     android:layout_marginBottom="16dp" />
+    
+     <ImageView
+        android:src="@drawable/rainbow"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+      
+       android:scaleType="centerCrop"
+          
+         
+        
+         />
+
+</LinearLayout>
